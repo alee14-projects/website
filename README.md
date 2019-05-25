@@ -1,1 +1,2 @@
-# website
+# AleeCorp Website
+A rewrite of the old aleecorp.github.io website
