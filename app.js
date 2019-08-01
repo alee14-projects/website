@@ -1,41 +1,54 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
+/*********************************
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+    Alee Productions Website: Website for Alee Productions
+    Copyright (C) 2019 Alee
 
-var app = express();
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-// view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'pug');
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
 
-app.use(logger('dev'));
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
+**************************************/
+const express = require('express');
+const moment = require('moment');
+let app = express();
+const config = require("./config.json")
+const webhook = require("webhook-discord")
+const Hook = new webhook.Webhook(config.durl)
 
-// catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  next(createError(404));
+const logger = (req, res, next) => {
+    console.log(
+      `${req.protocol}://${req.get('host')}${
+        req.originalUrl
+      }: ${moment().format()}`
+    );
+    next();
+  };
+
+console.log("Starting up Website...")
+
+app.set('view engine', 'ejs');
+
+app.use(logger)
+
+app.get('/', (req, res) => {
+  res.render('index', {title: 'Alee Production Website'});
 });
 
-// error handler
-app.use(function(err, req, res, next) {
-  // set locals, only providing error in development
-  res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
+app.get('/', function (req, res) {
+    Hook.success("Alee Productions Website", Error)
+    throw new Error('BROKEN') // Express will catch this on its own.
+  })
 
-  // render the error page
-  res.status(err.status || 500);
-  res.render('error');
-});
-
-module.exports = app;
+app.listen(4000, () => {
+//Hook.success("Alee Productions Website","Website has been loaded!")
+console.log('Website listening on port 4000!'
+)});
