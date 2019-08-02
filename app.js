@@ -18,11 +18,15 @@
 
 **************************************/
 const express = require('express');
+const app = express();
 const moment = require('moment');
-let app = express();
-const config = require("./config.json")
-const webhook = require("webhook-discord")
-const Hook = new webhook.Webhook(config.durl)
+const readline = require("readline");
+const path = require("path");
+const config = require("./config.json");
+const webhook = require("webhook-discord");
+const Hook = new webhook.Webhook(config.durl);
+
+const port = 4000;
 
 const logger = (req, res, next) => {
     console.log(
@@ -33,22 +37,46 @@ const logger = (req, res, next) => {
     next();
   };
 
-console.log("Starting up Website...")
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
+
+  rl.on("line", (input) => {
+    switch (input) {
+      case "clear":
+        console.clear();
+      break;
+      case "exit":
+        async function exitWebsite() {
+        console.log("[i] Closing website...");
+        await Hook.info("Alee Productions Website","Website is shutting down...");
+        process.exit(0);
+        }
+        exitWebsite();
+      break;
+      default:
+        console.log("[X] Error: Command not found. Use clear or exit.");
+        break;
+    }
+  });
+
+console.log("[i] Starting up Website...")
 
 app.set('view engine', 'ejs');
 
+app.set("views", path.join(__dirname, "views"));
+app.use(express.static(path.join(__dirname, "public")));
+
 app.use(logger)
 
-app.get('/', (req, res) => {
-  res.render('index', {title: 'Alee Production Website'});
+app.use("/", require("./routes/index"));
+
+app.use((req, res) => {
+	res.status(404).render("404", {title: "404 | Alee Productions"});
 });
 
-app.get('/', function (req, res) {
-    Hook.success("Alee Productions Website", Error)
-    throw new Error('BROKEN') // Express will catch this on its own.
-  })
-
-app.listen(4000, () => {
+app.listen(port, () => {
 //Hook.success("Alee Productions Website","Website has been loaded!")
-console.log('Website listening on port 4000!'
-)});
+console.log(`[>] Website listening on port ${port}!`)
+});
