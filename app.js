@@ -71,6 +71,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(logger)
 
 app.use("/", require("./routes/index"));
+app.use("/about", require("./routes/about"));
 
 app.use((req, res) => {
 	res.status(404).render("404", {title: "404 | Alee Productions"});
