@@ -21,7 +21,7 @@ const express = require("express");
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    res.render('index', {title: 'Home | Alee Productions'});
+    res.render('projects', {title: 'Projects | Alee Productions'});
   });
 
 module.exports = router;
