@@ -81,6 +81,6 @@ app.use((req, res) => {
 });
 
 app.listen(port, () => {
-  //Hook.success("Alee Productions Website","Website has been loaded!")
+  Hook.success("Alee Productions Website","Website has been loaded!")
   console.log(`[>] Website listening on port ${port}!`)
 });
