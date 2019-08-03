@@ -8,6 +8,7 @@
 
 <body>
     <% include ./includes/navbar %>
+    <!--Jumbotron-->
     <div class="jumbotron special-color bounceIn">
         <h2 class="display-4">Hello! Welcome to Alee Productions.</h2>
         <p class="lead">We are a very small productions company.</p>
@@ -15,6 +16,48 @@
         <p>If you want to know more about us click the button down below.</p>
         <a class="btn btn-green btn-lg" href="/about" role="button">Learn more</a>
     </div>
+
+    <!--Community, Video and Software-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="view overlay">
+                    <a href="https://discord.gg/EFhRDqG">
+                        <img src="/img/users-solid.svg" class="svg-white" height=220px>
+                        <div class="mask flex-center rgba-green-strong">
+                            <p class="white-text">Community</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="view overlay">
+                    <a href="https://www.youtube.com/channel/UC9CIwdleH3m_PV35QqULWzA">
+                        <img src="/img/video-solid.svg" class="svg-white" height=220px>
+                        <div class="mask flex-center rgba-green-strong">
+                            <p class="white-text">Video</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="view overlay">
+                    <a href="https://github.com/aleeproductions">
+                        <img src="/img/file-code-solid.svg" class="svg-white" height=220px>
+                        <div class="mask flex-center rgba-green-strong">
+                            <p class="white-text">Software</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    console.log("Welcome to Alee Productions :)")
+alert("Please note that this website is under active development and bugs may occur.\nIf there's any report it to the GitHub repo.")
+</script>
+
     <% include ./includes/footer %>
 </body>
 
