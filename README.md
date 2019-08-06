@@ -1,2 +1,6 @@
 # Alee Production Website
-A rewrite of the old aleecorp.github.io website
+The official website for Alee Productions.
+
+Written in Express.JS, EJS and MDBootstrap
+
+Licensed with GPL-3.0

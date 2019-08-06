@@ -42,8 +42,19 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
+function rlHelp() {
+  console.log("---------HELP-------");
+  console.log("help - Displays help");
+  console.log("clear - Clears the console");
+  console.log("exit - Exits Application");
+  console.log("--------------------");
+}
+
 rl.on("line", (input) => {
   switch (input) {
+    case "help":
+    rlHelp()
+    break;
     case "clear":
       console.clear();
       break;
@@ -56,7 +67,7 @@ rl.on("line", (input) => {
       exitWebsite();
       break;
     default:
-      console.log("[X] Error: Command not found. Use clear or exit.");
+      console.log("[X] Error: Command not found. Type help.");
       break;
   }
 });
@@ -68,7 +79,7 @@ app.set('view engine', 'ejs');
 app.set("views", path.join(__dirname, "views"));
 app.use(express.static(path.join(__dirname, "public")));
 
-app.use(logger)
+app.use(logger);
 
 app.use("/", require("./routes/index"));
 app.use("/projects", require("./routes/projects"));
@@ -81,6 +92,6 @@ app.use((req, res) => {
 });
 
 app.listen(port, () => {
-  //Hook.success("Alee Productions Website","Website has been loaded!")
-  console.log(`[>] Website listening on port ${port}!`)
+  //Hook.success("Alee Productions Website","Website has been loaded!");
+  console.log(`[>] Website listening on port ${port}!`);
 });
