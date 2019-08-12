@@ -24,6 +24,10 @@ const readline = require("readline");
 const path = require("path");
 const config = require("./config.json");
 const webhook = require("webhook-discord");
+const mongoose = require('mongoose');
+const passport = require('passport');
+const flash = require('connect-flash');
+const session = require('express-session');
 const Hook = new webhook.Webhook(config.durl);
 
 const port = 4000;
@@ -53,7 +57,7 @@ function rlHelp() {
 rl.on("line", (input) => {
   switch (input) {
     case "help":
-    rlHelp()
+    rlHelp();
     break;
     case "clear":
       console.clear();
@@ -74,12 +78,16 @@ rl.on("line", (input) => {
 
 console.log("[i] Starting up Website...");
 
+// Views
+
 app.set('view engine', 'ejs');
 
 app.set("views", path.join(__dirname, "views"));
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use(logger);
+
+// Routes
 
 app.use("/", require("./routes/index"));
 app.use("/projects", require("./routes/projects"));
