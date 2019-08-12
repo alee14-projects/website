@@ -43,11 +43,11 @@ const rl = readline.createInterface({
 });
 
 function rlHelp() {
-  console.log("---------HELP-------");
+  console.log("-----------HELP---------");
   console.log("help - Displays help");
   console.log("clear - Clears the console");
   console.log("exit - Exits Application");
-  console.log("--------------------");
+  console.log("------------------------");
 }
 
 rl.on("line", (input) => {
@@ -72,7 +72,7 @@ rl.on("line", (input) => {
   }
 });
 
-console.log("[i] Starting up Website...")
+console.log("[i] Starting up Website...");
 
 app.set('view engine', 'ejs');
 
@@ -83,6 +83,7 @@ app.use(logger);
 
 app.use("/", require("./routes/index"));
 app.use("/projects", require("./routes/projects"));
+app.use("/blog", require("./routes/blog"));
 app.use("/about", require("./routes/about"));
 
 app.use((req, res) => {
