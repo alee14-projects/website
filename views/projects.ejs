@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Alee Productions Website: Made by Alee and licensed with GPL-3.0 -->
 <html>
 
 <head>
@@ -11,8 +12,37 @@
         <h2 class="display-4">Projects</h2>
         <p class="lead">This is the projects that we are currently working on.</p>
     </div>
-    <center><h1>Notice: We are currently working on this page</h1></center>
+    <div class="container">
+        <center><h1 class="mb-5">Software</h1></center>
+        <!-- Software Cards -->
+    <div class="row d-flex justify-content-center">
+
+        <div class="col-md-5">
+            <div class="card elegant-color">
+                <div class="card-body">
+                    <h5 class="card-title">Unicity</h5>
+                    <p class="card-text white-text">A Sims clone written in Unity3D.</p>
+                    <a class="card-link green-text" href="https://github.com/aleeproductions/Unicity">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-5">
+            <div class="card elegant-color">
+                <div class="card-body">
+                    <h5 class="card-title">QuantumNet</h5>
+                    <p class="card-text white-text">A computer "hacking" game made in C#.</p>
+                    <a class="card-link green-text">Card link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--/.Software Cards -->
+        <center><h1 class="mt-5 mb-5">Videos</h1></center>
+        <ul id="yt-results" class="yt" style="list-style-type:none;"></ul>
+    </div>
+    <% include ./includes/scripts %>
+    <script type="text/javascript" data-main="/js/yt-list-videos.js" src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
     <% include ./includes/footer %>
 </body>
-
 </html>
