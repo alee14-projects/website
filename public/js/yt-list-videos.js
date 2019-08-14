@@ -1,10 +1,10 @@
 
 
 let channelID = 'UCNRn4YDPCCWSEl3CT7eWorA';
-let apiKey = ""; // Note to hide this
+let apiKey = "nope";
 let vidHeight = 400;
 let vidWidth = 500;
-let vidMaxResult = 5; // Maximum can be 50
+let vidMaxResult = 5;
 
 $(document).ready(function () {
     $.get("https://www.googleapis.com/youtube/v3/channels", {
