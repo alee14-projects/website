@@ -1,7 +1,15 @@
 body {
     font-family: Play, sans-serif;
+}
+
+.dark {
     background-color: #212121;
     color: #ffffff;
+}
+
+.light {
+    background-color: #ffffff;
+    color: #000000;
 }
 
 ul.yt {
@@ -12,4 +20,8 @@ ul.yt {
 li.yt-vid-list {
     display: inline-block;
     vertical-align: top;
+}
+
+ul.none {
+    list-style-type:none;
 }

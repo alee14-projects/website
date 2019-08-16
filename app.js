@@ -93,6 +93,7 @@ app.use("/", require("./routes/index"));
 app.use("/projects", require("./routes/projects"));
 app.use("/blog", require("./routes/blog"));
 app.use("/about", require("./routes/about"));
+app.use("/community/rules", require("./routes/community-rules"));
 
 app.use((req, res) => {
   res.status(404).render("404", {

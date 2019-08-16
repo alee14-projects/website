@@ -6,8 +6,9 @@
     <% include ./includes/header %>
 </head>
 
-<body>
+<body class="dark">
     <% include ./includes/navbar %>
+    <div class="animsition">
     <div class="jumbotron special-color">
         <h2 class="display-4">About Alee Productions</h2>
         <p class="lead">Alee Productions is a productions company by Andrew Lee that focuses on making videos and software.
@@ -22,7 +23,7 @@
             Productions
             just to make the company more professional.</p>
         <h1>FAQ</h1>
-        <ul style="list-style-type:none;">
+        <ul class="none">
             <h4>
                 <li>Q: Why did you create Alee Productions?</li>
                 <li>A: Reason why I want to create this is because I want to make my own things as a passion also
@@ -50,10 +51,12 @@
             </div>
         </div>
         <h1>Credits</h1>
+        <p>Website is powered by Express.JS, EJS and Material Design Bootstrap.</p>
         <p>This project is open source meaning that you can help <a href="https://github.com/aleeproductions/website">contribute</a> to this website.</p>
     </div>
         <% include ./includes/scripts %>
         <% include ./includes/footer %>
+    </div>
 </body>
 
 </html>
