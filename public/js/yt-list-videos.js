@@ -1,7 +1,7 @@
 
 
 let channelID = 'UCNRn4YDPCCWSEl3CT7eWorA';
-let apiKey = "nope";
+let apiKey = "nope"; // Note to self: Rewrite the authentication
 let vidHeight = 400;
 let vidWidth = 500;
 let vidMaxResult = 5;
