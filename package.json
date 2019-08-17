@@ -4,8 +4,8 @@
   "description": "A rewrite of the old aleecorp.github.io website",
   "main": "app.js",
   "scripts": {
-    "start": "concurrently \"node-sass public/css/style.scss -o public/css -w\", \"node app\"",
-    "dev": "concurrently \"node-sass public/css/style.scss -o public/css -w\", \"nodemon app\""
+    "start": "concurrently \"node-sass --omit-source-map-url public/css/style.scss public/css/style.css \", \"node-sass public/css/style.scss -o public/css -w\", \"node app\"",
+    "dev": "concurrently \"node-sass --omit-source-map-url public/css/style.scss public/css/style.css \", \"node-sass public/css/style.scss -o public/css -w\", \"nodemon app\""
   },
   "repository": {
     "type": "git",

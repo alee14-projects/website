@@ -21,7 +21,7 @@ const express = require("express");
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    res.render('community-rules', {title: 'Community Rules | Alee Productions'});
+    res.render('community/rules', {title: 'Community Rules | Alee Productions'});
 });
 
 module.exports = router;
