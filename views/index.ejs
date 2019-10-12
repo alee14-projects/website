@@ -9,7 +9,6 @@
 <body class="dark">
     <% include ./includes/navbar %>
     <div class="animsition">
-    <!--Jumbotron-->
     <div class="jumbotron special-color bounceIn white-text">
         <h2 class="display-4">Hello! Welcome to Alee Productions.</h2>
         <p class="lead">We are a very small productions company.</p>
@@ -17,9 +16,8 @@
         <p>If you want to know more about us click the button down below.</p>
         <a class="btn btn-green btn-lg animsition-link" href="/about" role="button">Learn more</a>
     </div>
-
-    <div class="container">
-        <h2 class="text-center mb-3">Our Products</h2>
+        <!--Jumbotron-->
+        <div class="container">
         <!--Carousel Wrapper-->
         <div id="carousel-product" class="carousel slide carousel-slide" data-ride="carousel">
             <!--Indicators-->
@@ -69,7 +67,6 @@
                         <a class="btn btn-green btn-lg" href="#" role="button">Learn More</a>
                     </div>
                 </div>
-            </div>
             <!--/.Slides-->
             <!--Controls-->
             <a class="carousel-control-prev" href="#carousel-product" role="button" data-slide="prev">
@@ -83,49 +80,9 @@
             <!--/.Controls-->
         </div>
         <!--/.Carousel Wrapper-->
-        <br>
-        <!--Community, Video and Software-->
-        <!-- If anyone knows how to fix this please tell me thanks -Alee :)-->
-        <div class="row d-flex justify-content-center">
-            <div class="col-sm">
-                    <div class="view overlay">
-                        <a href="https://discord.gg/EFhRDqG">
-                            <img class="text-center" src="/img/users-solid.svg" height=220px>
-                            <div class="mask flex-center rgba-green-strong">
-                                <p class="white-text">Community</p>
-                            </div>
-                        </a>
-                    </div>
-                    <br>
-                <p class="text-center">Community</p>
-            </div>
-            <div class="col-sm">
-                    <div class="view overlay">
-                        <a href="https://www.youtube.com/channel/UC9CIwdleH3m_PV35QqULWzA">
-                            <img src="/img/video-solid.svg" height=220px>
-                            <div class="mask flex-center rgba-green-strong">
-                                <p class="white-text">Video</p>
-                            </div>
-                        </a>
-                    </div>
-                    <br>
-                <p class="text-center">Video</p>
-            </div>
-            <div class="col-sm">
-                    <div class="view overlay">
-                        <a href="https://github.com/aleeproductions">
-                            <img src="/img/file-code-solid.svg" height=220px>
-                            <div class="mask flex-center rgba-green-strong">
-                                <p class="white-text">Software</p>
-                            </div>
-                        </a>
-                    </div>
-                    <br>
-                   <p class="text-center">Software</p>
-            </div>
-        </div>
     </div>
-    <script>
+        </div>
+        <script>
         console.log("Welcome to Alee Productions :)");
     </script>
     <% include ./includes/scripts %>

@@ -65,7 +65,7 @@ rl.on("line", (input) => {
     case "exit":
       async function exitWebsite() {
         console.log("[i] Closing website...");
-        //await Hook.info("Alee Productions Website", "Website is shutting down...");
+        await Hook.info("Alee Productions Website", "Website is shutting down...");
         process.exit(0);
       }
       exitWebsite();
@@ -102,6 +102,6 @@ app.use((req, res) => {
 });
 
 app.listen(port, () => {
-  //Hook.success("Alee Productions Website","Website has been loaded!");
+  Hook.success("Alee Productions Website","Website has been loaded!");
   console.log(`[>] Website listening on port ${port}!`);
 });
