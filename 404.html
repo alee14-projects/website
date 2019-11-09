@@ -1,0 +1,23 @@
+---
+title: 404
+layout: default-none
+permalink: /404
+---
+   <div class="text-center mt-3">
+       <h1>404 - Not Found</h1>
+       <h2 id="404message"></h2>
+       <h3>Return to <a href="/" class="green-text">homepage</a>?</h3>
+    </div>
+    <script>
+        function randomtext() {
+            let randomtxt = [
+                'Oops, seems like that page isn\'t found!',
+                'You seem to be lost!',
+                'Uh oh, that page isn\'t found in our servers!',
+                'Seems like you landed on this page...'
+            ];
+            return randomtxt[Math.floor((Math.random() * 4.00))];
+        }
+
+        document.getElementById("404message").innerHTML = randomtext();
+    </script>

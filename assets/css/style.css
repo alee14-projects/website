@@ -1,0 +1,26 @@
+body {
+    font-family: Play, sans-serif;
+}
+
+.dark {
+    background-color: #212121;
+    color: #ffffff;
+}
+
+.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+ul.yt {
+    margin: 0 auto;
+    text-align: center;
+}
+ul.none {
+    list-style-type: none;
+}
+
+ul.yt-vid-list {
+    display: inline-block;
+    vertical-align: top;
+}
