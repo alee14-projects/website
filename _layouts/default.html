@@ -7,12 +7,11 @@
     {% include header.html %}
 </head>
 
-<body class="dark">
+<body class="dark" onload="displayRepos();">
     {% include navbar.html %}
     <div class="animsition">
     <div class="jumbotron special-color">
         <h2 class="display-4">{{page.title}}</h2>
-        <h2 class="display-4">{{page.header.title}}</h2>
         <p class="lead">{{page.description}}</p>
     </div>
     <div class="container">
