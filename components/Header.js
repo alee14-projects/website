@@ -16,42 +16,44 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-import Head from "next/head";
+import Head from 'next/head';
 
 const Header = () => (
-	<Head>
-		<meta charSet="UTF-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<meta httpEquiv="X-UA-Compatible" content="ie=edge"/>
-		<meta name="description" content="We make games, videos and software."/>
+<Head>
+<meta charSet="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta httpEquiv="X-UA-Compatible" content="ie=edge"/>
+<meta name="description" content="We make games, videos and software."/>
 
-		<link rel="apple-touch-icon" sizes="180x180" href="/assets/ico/apple-touch-icon.png"/>
-		<link rel="icon" type="image/png" sizes="32x32" href="/assets/ico/favicon-32x32.png"/>
-		<link rel="icon" type="image/png" sizes="16x16" href="/assets/ico/favicon-16x16.png"/>
-		<link rel="manifest" href="/assets/ico/site.webmanifest"/>
-		<link rel="mask-icon" href="/assets/ico/safari-pinned-tab.svg" color="#5bbad5"/>
-		<link rel="shortcut icon" href="/assets/ico/favicon.ico"/>
-		<meta name="msapplication-TileColor" content="#da532c"/>
-		<meta name="msapplication-config" content="/assets/ico/browserconfig.xml"/>
-		<meta name="theme-color" content="#ffffff"/>
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/ico/apple-touch-icon.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/ico/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/ico/favicon-16x16.png"/>
+<link rel="manifest" href="/assets/ico/site.webmanifest"/>
+<link rel="mask-icon" href="/assets/ico/safari-pinned-tab.svg" color="#5bbad5"/>
+<link rel="shortcut icon" href="/assets/ico/favicon.ico"/>
+<meta name="msapplication-TileColor" content="#da532c"/>
+<meta name="msapplication-config" content="/assets/ico/browserconfig.xml"/>
+<meta name="theme-color" content="#ffffff"/>
 
-		<script src="https://kit.fontawesome.com/4c90505fb4.js"/>
+<script src="https://kit.fontawesome.com/4c90505fb4.js"></script>
 
-		<link href="/assets/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="/assets/css/bootstrap.min.css" rel="stylesheet"/>
 
-		<link href="/assets/css/mdb.min.css" rel="stylesheet"/>
+<link href="/assets/css/mdb.min.css" rel="stylesheet"/>
 
-		<link href="https://fonts.googleapis.com/css?family=Play:400,700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Play:400,700&display=swap" rel="stylesheet"/>
 
-		<link rel="stylesheet" href="/assets/css/animsition.min.css"/>
+<link rel="stylesheet" href="/assets/css/animsition.min.css"/>
 
-		<link rel="stylesheet" href="/assets/css/style.css"/>
+<link rel="stylesheet" href="/assets/css/style.css"/>
 
-		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"/>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-		<title>Alee Productions</title>
+{/* Fix this part */}
 
-	</Head>
-);
+<title>Alee Productions</title>
+
+</Head>
+)
 
 export default Header;
