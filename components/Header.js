@@ -49,6 +49,8 @@ const Header = () => (
 
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
+{/* Fix this part */}
+
 <title>Alee Productions</title>
 
 </Head>
