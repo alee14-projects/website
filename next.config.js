@@ -18,7 +18,7 @@
 Also add information on how to contact you by electronic and paper mail.
 */
 
-module.exports = {
+module.exports = { /*
     webpack: (cfg) => {
         cfg.module.rules.push(
             {
@@ -28,5 +28,5 @@ module.exports = {
             }
         )
         return cfg;
-    }
+    } */
 }
