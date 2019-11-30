@@ -17,19 +17,19 @@
 
 */
 
-import Navbar from './Navbar';
-import Header from './Header';
-import Scripts from './Scripts';
-import Footer from './Footer';
+import Navbar from "./Navbar";
+import Header from "./Header";
+import Scripts from "./Scripts";
+import Footer from "./Footer";
 
 const Layout = (props) => (
-    <div>
-        <Header/>
-        <Navbar/>
-        {props.children}
-        <Scripts/>
-        <Footer/>
-    </div>
+	<div>
+		<Header/>
+		<Navbar/>
+		{props.children}
+		<Scripts/>
+		<Footer/>
+	</div>
 );
 
 export default Layout;

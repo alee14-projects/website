@@ -18,15 +18,15 @@
 */
 
 const Scripts = () => (
-    <div>
-<script type="text/javascript" src="/assets/js/jquery.min.js"></script>
+	<div>
+		<script type="text/javascript" src="/assets/js/jquery.min.js"/>
 
-<script type="text/javascript" src="/assets/js/popper.min.js"></script>
+		<script type="text/javascript" src="/assets/js/popper.min.js"/>
 
-<script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="/assets/js/bootstrap.min.js"/>
 
-<script type="text/javascript" src="/assets/js/mdb.min.js"></script>
-</div>
+		<script type="text/javascript" src="/assets/js/mdb.min.js"/>
+	</div>
 );
 
 export default Scripts;

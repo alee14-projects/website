@@ -17,20 +17,18 @@
 
 */
 
-import Layout from '../components/Layout';
+import Layout from "../components/Layout";
 
 const Blog = () => (
-    <div>
-        <Layout>
-        <div className="jumbotron special-color bounceIn white-text">
-        <h2 className="display-4">Blog</h2>
-        <p className="lead">Where we post updates on products, this website and etc.</p>
-        </div>
-        <div className="container">
-        <h1 className="text-center mt-5">Notice: We are currently working on this page</h1>
-        </div>
-        </Layout>
-    </div>
-)
+	<Layout>
+		<div className="jumbotron special-color bounceIn white-text">
+			<h2 className="display-4">Blog</h2>
+			<p className="lead">Updates on products, this website, etc.</p>
+		</div>
+		<div className="container">
+			<h1 className="text-center mt-5">Notice: We are currently working on this page</h1>
+		</div>
+	</Layout>
+);
 
 export default Blog;

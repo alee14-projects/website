@@ -18,17 +18,21 @@
 */
 
 const Footer = () => (
-    <div>
-    <footer className="page-footer mt-5 font-small green">
-        <div className="footer-copyright text-center py-3">&copy; Copyright 2016-2019, Alee Productions. Licensed with <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL-3.0</a> and view <a href="/about#credits">credits</a> to see how this website is built.</div>
-    </footer>
-    <div className="alert alert-warning fixed-bottom m-0 alert-dismissible fade show" role="alert">
-            Please note that this website is under active development and bugs may occur.<br/>If there's any, report it to the <a href="https://github.com/aleeproductions/website">GitHub</a> repo.
-    <button type="button" className="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-    </button>
-    </div>
-    </div>
-)
+	<div>
+		<footer className="page-footer mt-5 font-small green">
+			<div className="footer-copyright text-center py-3">
+				&copy; Copyright 2016-2019, Alee Productions. Licensed with <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL-3.0</a>.
+				View the <a href="/about#credits">credits</a> to see our stack.
+			</div>
+		</footer>
+		<div className="alert alert-warning fixed-bottom m-0 alert-dismissible fade show" role="alert">
+			Please note that this website is under active development and bugs may occur.<br/>If there are any, report it
+			<a href="https://github.com/aleeproductions/website/issues"> here.</a>
+			<button type="button" className="close" data-dismiss="alert" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+	</div>
+);
 
 export default Footer;
