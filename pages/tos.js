@@ -1,25 +1,37 @@
----
-title: Terms of Service
-layout: default-none
-permalink: /tos
----
+/*
+    Alee Productions Website: Website for Alee Productions
+    Copyright (C) 2019 Alee
 
-    <style>
-        .tos {
-            font-size: 15pt;
-        }
-    </style>
-<!-- TODO: Add legal stuff -->
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+*/
+import Layout from '../components/Layout';
+
+const TOS = () => (
+    <Layout>
+        <div>
+        <div className="container">
+{/* TODO: Add legal stuff */}
 <div id="top"></div>
-<div class="animsition">
-    <h1 class="text-center display-5 mt-3">Alee Productions Terms of Service</h1>
-    <p class="text-center lead">These terms and service have been set in place so we make sure that you can have a great time using our services.</p>
-<div class="container tos">
+    <h1 className="text-center display-5 mt-3">Alee Productions Terms of Service</h1>
+    <p className="text-center lead">These terms and service have been set in place so we make sure that you can have a great time using our services.</p>
+<div className="container">
 <div id="tiers">
 <h1>Tiers</h1>
-    <ul class="none">
-        <li><a class="white-text" href="#normal-tier">Normal Tier</a> - It means it is not too severe and it there’s nothing to worry about.</li>
-        <li><a class="white-text" href="#excessive-tier">Excessive Tier</a> - It means that if a rule is broken that’s severe it will be taken action immediately and will be stored in the punishment log.</li>
+    <ul className="none">
+        <li><a className="white-text" href="#normal-tier">Normal Tier</a> - It means it is not too severe and it there’s nothing to worry about.</li>
+        <li><a className="white-text" href="#excessive-tier">Excessive Tier</a> - It means that if a rule is broken that’s severe it will be taken action immediately and will be stored in the punishment log.</li>
     </ul>
 </div>
 <div id="normal-tier">
@@ -53,7 +65,7 @@ permalink: /tos
         <h1>Alee Productions Policies</h1>
         <div id="coppa-policy">
             <h1>COPPA Policy</h1>
-            <p>You must be at least 13 years old to be in this server due to the <a class="green-text" href="https://en.wikipedia.org/wiki/Children's_Online_Privacy_Protection_Act">COPPA</a> regulations…</p>
+            <p>You must be at least 13 years old to be in this server due to the <a className="green-text" href="https://en.wikipedia.org/wiki/Children's_Online_Privacy_Protection_Act">COPPA</a> regulations…</p>
             <p>If you don’t accept this, you have to leave our services.</p>
             <p>An investigation or/and ban may happen if found guilty.</p>
         </div>
@@ -61,7 +73,7 @@ permalink: /tos
         <div id="discord-nickname">
             <h1>Nickname Policy</h1>
             <p>We enforce this nickname policy to keep a clean, friendly community.</p>
-            <p>Our nickname system is different, using the command <code class="green-text">am:nick [your nickname]</code> so our staff team can approve it first. This system is set in place so that the community is a nice place to be for everyone.
+            <p>Our nickname system is different, using the command <code className="green-text">am:nick [your nickname]</code> so our staff team can approve it first. This system is set in place so that the community is a nice place to be for everyone.
                 To have your nickname accepted, it must comply with the following:</p>
             <ul>
                 <li>No offensive words</li>
@@ -86,20 +98,20 @@ permalink: /tos
             <p>If you don’t agree with the policies and wanting to opt out, you may not use our services.</p>
         </div>
     </div>
-    <p>We also highly recommend you to read Discord’s <a class="text-green" href="https://discordapp.com/terms">ToS</a> and <a class="text-green" href="https://discordapp.com/guidelines">Community Guidelines</a>.</p>
+    <p>We also highly recommend you to read Discord’s <a className="text-green" href="https://discordapp.com/terms">ToS</a> and <a className="text-green" href="https://discordapp.com/guidelines">Community Guidelines</a>.</p>
     <div id="modal">
-        <!-- Modal -->
-        <div class="modal fade down" id="instructionsModal" tabindex="-1" role="dialog" aria-labelledby="instructions-label" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content dark">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="instructions-label">Instructions</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        {/*  Modal  */}
+        <div className="modal fade down" id="instructionsModal" tabIndex="-1" role="dialog" aria-labelledby="instructions-label" aria-hidden="true">
+            <div className="modal-dialog" role="document">
+                <div className="modal-content dark">
+                    <div className="modal-header">
+                        <h5 className="modal-title" id="instructions-label">Instructions</h5>
+                        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
-                        <ul class="none" style="font-size: 18px;">
+                    <div className="modal-body">
+                        <ul className="none">
                             <li>1. Never ask for staff</li>
                             <li>2. Be active in the Alee Productions</li>
                             <li>3. Follow all rules without breaking them</li>
@@ -107,20 +119,20 @@ permalink: /tos
                             <li>5. The staff has to vote if they can be accepted to be part of the staff team</li>
                         </ul>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn green" data-dismiss="modal">Close</button>
+                    <div className="modal-footer">
+                        <button type="button" className="btn green" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Modal -->
+        {/*  Modal  */}
     </div>
     <div id="FAQ">
         <h1>Frequent Asked Questions</h1>
         <p>These are the frequently asked questions that you might ask the staffs.</p>
-        <ul class="none">
+        <ul className="none">
             <li>Q: Can I be staff?</li>
-            <li>A: No, you can't ask for staff but you want to know how to get it, then here are the <a class="green-text" id="modalActivate" data-toggle="modal" data-target="#instructionsModal">instructions</a>.</li>
+            <li>A: No, you can't ask for staff but you want to know how to get it, then here are the <a className="green-text" id="modalActivate" data-toggle="modal" data-target="#instructionsModal">instructions</a>.</li>
             <li>Q: I was banned for no reason! I hate the staff…</li>
             <li>A: Well… if you were banned for no reason you can ask our staff team and they will tell you why you were banned.</li>
         </ul>
@@ -132,5 +144,11 @@ permalink: /tos
         <p>- Alee Productions Community Team</p>
         <p>Last updated on November 26th 2019</p>
     </div>
-    <a href="#top" class="green-text">Back to top</a>
+    <a href="#top" className="green-text">Back to top</a>
 </div>
+        </div>
+        </div>
+    </Layout>
+)
+
+export default TOS;

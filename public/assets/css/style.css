@@ -1,16 +1,9 @@
 body {
     font-family: Play, sans-serif;
-}
-
-.dark {
     background-color: #212121;
     color: #ffffff;
 }
 
-.light {
-    background-color: #ffffff;
-    color: #000000;
-}
 
 ul.yt {
     margin: 0 auto;

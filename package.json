@@ -1,0 +1,36 @@
+{
+  "name": "alee-productions-website",
+  "version": "1.0.0",
+  "description": "The official website for Alee Productions.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleeproductions/website.git"
+  },
+  "author": "Alee",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/aleeproductions/website/issues"
+  },
+  "homepage": "https://github.com/aleeproductions/website#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-regular-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.1.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "frontmatter-markdown-loader": "^3.1.0"
+  }
+}
