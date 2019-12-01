@@ -24,8 +24,7 @@ const Index = () => (
 		<div className="jumbotron special-color bounceIn white-text">
 			<h2 className="display-4">Hello! Welcome to Alee Productions.</h2>
 			<p className="lead">We are a very small productions company.</p>
-			<div className="my-4">
-			</div>
+			<div className="my-4"/>
 			<a className="btn btn-green btn-lg animsition-link" href="/about" role="button">More about us</a>
 		</div>
 		<div className="container">
