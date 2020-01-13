@@ -2,6 +2,8 @@
     Alee Productions Website: Website for Alee Productions
     Copyright (C) 2019 Alee
 
+	AS OF DECEMBER 6TH 2019 DO NOT MODIFY THE TOS WITHOUT ALEE'S PERMISSION.
+
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -16,6 +18,7 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 */
+
 import Layout from "../components/Layout";
 
 const TOS = () => (
@@ -66,12 +69,10 @@ const TOS = () => (
 								possibly permanently terminated from using our services.
 							</li>
 							<li>Do not argue or threaten the staff.</li>
-							<li>Blackmailing members is also not tolerated here.</li>
+							<li>Blackmailing, attacking, cyberbullying, and threatening members is never tolerated here.</li>
 							<li>No NSFW content.</li>
 							<li>No raids to be started when using our services.</li>
 							<li>No alts are to be on any of our services.</li>
-							<li>Threatening anyone will also not be tolerated. (i.e. DDoS, trying to find you and etc)
-							</li>
 							<li>Any malicious content will not be tolerated. (i.e. Viruses, Malware, Adware and etc)
 							</li>
 						</ul>
@@ -176,7 +177,7 @@ const TOS = () => (
 						<p>If there's staff abusing their powers please report them to Alee immediately.</p>
 						<p>Thanks for reading the ToS!</p>
 						<p>- Alee Productions Community Team</p>
-						<p>Last updated on November 26th 2019</p>
+						<p>Last updated on January 12th 2020</p>
 					</div>
 					<a href="#top" className="green-text">Back to top</a>
 				</div>
