@@ -77,7 +77,7 @@ const TOS = () => (
 							</li>
 						</ul>
 					</div>
-					<div id="policy">
+					<div id="alp-policy">
 						<h1>Alee Productions Policies</h1>
 						<div id="coppa-policy">
 							<h1>COPPA Policy</h1>
@@ -155,6 +155,15 @@ const TOS = () => (
 						</div>
 						{/*  Modal  */}
 					</div>
+					<div id="cityverse-policy">
+						<h1>Cityverse Policies</h1>
+						<p>By joining our Minecraft server you must follow the following rules.</p>
+						<ul>
+							<li>Don't use any hack clients</li>
+							<li>No griefing</li>
+						</ul>
+						<p>If the rules are broken there can be consequences such as either a 30 day, 60 day or permanent ban.</p>
+					</div>
 					<div id="FAQ">
 						<h1>Frequent Asked Questions</h1>
 						<p>These are the frequently asked questions that you might ask the staffs.</p>
@@ -177,7 +186,7 @@ const TOS = () => (
 						<p>If there's staff abusing their powers please report them to Alee immediately.</p>
 						<p>Thanks for reading the ToS!</p>
 						<p>- Alee Productions Community Team</p>
-						<p>Last updated on January 12th 2020</p>
+						<p>Last updated on February 22nd 2020</p>
 					</div>
 					<a href="#top" className="green-text">Back to top</a>
 				</div>
