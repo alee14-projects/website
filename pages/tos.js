@@ -161,6 +161,7 @@ const TOS = () => (
 						<ul>
 							<li>Don't use any hack clients</li>
 							<li>No griefing</li>
+							<li>Respect other players</li>
 						</ul>
 						<p>If the rules are broken there can be consequences such as either a 30 day, 60 day or permanent ban.</p>
 					</div>
@@ -186,7 +187,7 @@ const TOS = () => (
 						<p>If there's staff abusing their powers please report them to Alee immediately.</p>
 						<p>Thanks for reading the ToS!</p>
 						<p>- Alee Productions Community Team</p>
-						<p>Last updated on February 22nd 2020</p>
+						<p>Last updated on February 25th 2020</p>
 					</div>
 					<a href="#top" className="green-text">Back to top</a>
 				</div>
