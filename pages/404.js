@@ -39,5 +39,4 @@ function randomtext() {
     return randomtxt[Math.floor((Math.random() * 4.00))];
 }
 
-//document.getElementById("404message").innerHTML = randomtext();
 export default Custom404
