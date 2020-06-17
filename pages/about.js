@@ -1,6 +1,6 @@
 /*
     Alee Productions Website: Website for Alee Productions
-    Copyright (C) 2019 Alee
+    Copyright (C) 2020 Alee
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -29,8 +29,7 @@ const About = () => (
 			</div>
 			<div className="container">
 				<h1>History</h1>
-				<p>Alee Productions started in 2016. It used to be called "AleeCorp" and used to make just software but
-					over
+				<p>Alee Productions started in 2017 under the name of AleeCorp. It used to make just software but over
 					time it started branching to other things like making games and videos.
 					In late 2018, AleeCorp merged with Universe and some project merged but due to a community conflict
 					during

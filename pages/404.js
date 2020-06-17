@@ -17,19 +17,27 @@
 
 */
 
-import Navbar from "./Navbar";
-import Header from "./Header";
-import Scripts from "./Scripts";
-import Footer from "./Footer";
+import Layout from "../components/Layout";
 
-const Layout = (props) => (
-	<div>
-		<Header/>
-		<Navbar/>
-		{props.children}
-		<Scripts/>
-		<Footer/>
-	</div>
+const Custom404 = () => (
+    <Layout>
+   <div class="text-center mt-3">
+       <h1>404 - Not Found</h1>
+       <h2 id="404message"></h2>
+       <h3>Return to <a href="/" className="green-text">homepage</a>?</h3>
+    </div>
+    </Layout>
 );
 
-export default Layout;
+function randomtext() {
+    let randomtxt = [
+        'Oops, seems like that page isn\'t found!',
+        'You seem to be lost!',
+        'Uh oh, that page isn\'t found in our servers!',
+        'Seems like you landed on this page...'
+    ];
+    return randomtxt[Math.floor((Math.random() * 4.00))];
+}
+
+document.getElementById("404message").innerHTML = randomtext();
+export default Custom404

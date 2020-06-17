@@ -1,8 +1,8 @@
 /*
     Alee Productions Website: Website for Alee Productions
-    Copyright (C) 2019 Alee
+    Copyright (C) 2020 Alee
 
-	AS OF DECEMBER 6TH 2019 DO NOT MODIFY THE TOS WITHOUT ALEE'S PERMISSION.
+	DO NOT MODIFY THE TOS WITHOUT ALEE'S PERMISSION.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -25,172 +25,81 @@ const TOS = () => (
 	<Layout>
 		<div>
 			<div className="container">
-				{/* TODO: Add legal stuff */}
 				<div id="top"/>
 				<h1 className="text-center display-5 mt-3">Alee Productions Terms of Service</h1>
-				<p className="text-center lead">These terms and service have been set in place so we make sure that you can have a great time using our services.</p>
-				<div className="container">
-					<div id="tiers">
-						<h1>Tiers</h1>
-						<ul className="none">
-							<li><a className="white-text" href="#normal-tier">Normal Tier</a> - It means it is not too
-								severe and it there’s nothing to worry about.
-							</li>
-							<li><a className="white-text" href="#excessive-tier">Excessive Tier</a> - It means that if a
-								rule is broken that’s severe it will be taken action immediately and will be stored in
-								the punishment log.
-							</li>
-						</ul>
-					</div>
-					<div id="normal-tier">
-						<h1>Normal Tier</h1>
-						<p>If these are broken, then an unofficial warning will occur. If these actions continue, an
-							official warning will occur then excessive punishment will happen if continued once
-							more.</p>
-						<ul>
-							<li>Use common sense. (This isn’t an against rule but you must use your common knowledge.)
-							</li>
-							<li>No spamming (Any spam will result in an official warning.)</li>
-							<li>No any advertisements/giveaways at any channels. Unless for a specific purpose.</li>
-							<li>Respect others.</li>
-							<li>No backseat moderating (enforcing the rules to other users)</li>
-							<li>Refrain asking for staff that just lowers your chance to never getting it.</li>
-						</ul>
-					</div>
-					<div id="excessive-tier">
-						<h1>Excessive Tier</h1>
-						<p>This can result in an official warning or a termination from using our services.</p>
-						<ul>
-							<li>No excessive swearing (Swearing is allowed but cursing that contains racial slur and etc
-								will result in immediate severe punishment.)
-							</li>
-							<li>Any accusations will never be tolerated here there will be an investigation from the
-								staff team if it occurs and false accusation may lead a temporary termination or
-								possibly permanently terminated from using our services.
-							</li>
-							<li>Do not argue or threaten the staff.</li>
-							<li>Blackmailing, attacking, cyberbullying, and threatening members is never tolerated here.</li>
-							<li>No NSFW content.</li>
-							<li>No raids to be started when using our services.</li>
-							<li>No alts are to be on any of our services.</li>
-							<li>Any malicious content will not be tolerated. (i.e. Viruses, Malware, Adware and etc)
-							</li>
-						</ul>
-					</div>
-					<div id="alp-policy">
-						<h1>Alee Productions Policies</h1>
-						<div id="coppa-policy">
-							<h1>COPPA Policy</h1>
-							<p>You must be at least 13 years old to be in this server due to the <a
-								className="green-text"
-								href="https://en.wikipedia.org/wiki/Children's_Online_Privacy_Protection_Act">COPPA</a> regulations…
-							</p>
-							<p>If you don’t accept this, you have to leave our services.</p>
-							<p>An investigation or/and ban may happen if found guilty.</p>
-						</div>
-						<h2>Discord Only Policies</h2>
-						<div id="discord-nickname">
-							<h1>Nickname Policy</h1>
-							<p>We enforce this nickname policy to keep a clean, friendly community.</p>
-							<p>Our nickname system is different, using the command <code className="green-text">am:nick
-								[your nickname]</code> so our staff team can approve it first. This system is set in
-								place so that the community is a nice place to be for everyone.
-								To have your nickname accepted, it must comply with the following:</p>
-							<ul>
-								<li>No offensive words</li>
-								<li>No symbols</li>
-								<li>Not attention-grabbing (i.e. getting to the top of the list by using a symbol)</li>
-							</ul>
-							<p>Any display name that does not follow the guidelines above will have the following done
-								to it:</p>
-							<ul>
-								<li>Censoring your nickname/username</li>
-								<li>Ignoring the nickname change from AstralMod</li>
-							</ul>
-						</div>
-						<div id="logging-policy">
-							<h1>Logging Policy</h1>
-							<p>Our bots log the following things, and store them in their databases:</p>
-							<ul>
-								<li>Deleted Messages</li>
-								<li>Edited Messages</li>
-								<li>Your ID</li>
-								<li>You joining and leaving</li>
-							</ul>
-							<p>If you don’t agree with the policies and wanting to opt out, you may not use our
-								services.</p>
-						</div>
-					</div>
-					<p>We also highly recommend you to read Discord’s <a className="text-green"
-																		 href="https://discordapp.com/terms">ToS</a> and <a
-						className="text-green" href="https://discordapp.com/guidelines">Community Guidelines</a>.</p>
-					<div id="modal">
-						{/*  Modal  */}
-						<div className="modal fade down" id="instructionsModal" tabIndex="-1" role="dialog"
-							 aria-labelledby="instructions-label" aria-hidden="true">
-							<div className="modal-dialog" role="document">
-								<div className="modal-content dark">
-									<div className="modal-header">
-										<h5 className="modal-title" id="instructions-label">Instructions</h5>
-										<button type="button" className="close" data-dismiss="modal" aria-label="Close">
-											<span aria-hidden="true">&times;</span>
-										</button>
-									</div>
-									<div className="modal-body">
-										<ul className="none">
-											<li>1. Never ask for staff</li>
-											<li>2. Be active in the Alee Productions</li>
-											<li>3. Follow all rules without breaking them</li>
-											<li>4. Finally, the staff will pick people that they trust</li>
-											<li>5. The staff has to vote if they can be accepted to be part of the staff
-												team
-											</li>
-										</ul>
-									</div>
-									<div className="modal-footer">
-										<button type="button" className="btn green" data-dismiss="modal">Close</button>
-									</div>
-								</div>
-							</div>
-						</div>
-						{/*  Modal  */}
-					</div>
-					<div id="cityverse-policy">
-						<h1>Cityverse Policies</h1>
-						<p>By joining our Minecraft server you must follow the following rules.</p>
-						<ul>
-							<li>Don't use any hack clients</li>
-							<li>No griefing</li>
-							<li>Respect other players</li>
-						</ul>
-						<p>If the rules are broken there can be consequences such as either a 30 day, 60 day or permanent ban.</p>
-					</div>
-					<div id="FAQ">
-						<h1>Frequent Asked Questions</h1>
-						<p>These are the frequently asked questions that you might ask the staffs.</p>
-						<ul className="none">
-							<li>Q: Can I be staff?</li>
-							<li>A: No, you can't ask for staff but you want to know how to get it, then here are the <a
-								className="green-text" id="modalActivate" data-toggle="modal"
-								data-target="#instructionsModal">instructions</a>.
-							</li>
-							<li>Q: I was banned for no reason! I hate the staff…</li>
-							<li>A: Well… if you were banned for no reason you can ask our staff team and they will tell
-								you why you were banned.
-							</li>
-						</ul>
-					</div>
-					<div id="conclusion">
-						<p>If a rule is broken, no need to panic, it's just a heads up on what’s coming if you were to
-							break another rule and if you got mistakenly warned please contact one of the staff
-							immediately.</p>
-						<p>If there's staff abusing their powers please report them to Alee immediately.</p>
-						<p>Thanks for reading the ToS!</p>
-						<p>- Alee Productions Community Team</p>
-						<p>Last updated on February 25th 2020</p>
-					</div>
-					<a href="#top" className="green-text">Back to top</a>
+				<p>These terms of service are set in place to ensure you have a great time being part of our community/services.</p>
+				<div id="community-guidelines">
+				<h1>Community Guidelines</h1>
+				<p>These are the community guidelines. They are meant to set the foundations of this community.</p>
+				<ul>
+					<li>Use common sense.</li>
+					<li>No spamming. Any spam will result in an official warning.</li>
+					<li>No advertisements/giveaways of any kind, unless for a specific purpose.</li>
+					<li>Respect others.</li>
+					<li>No backseat moderating (enforcing the rules to other users).</li>
+					<li>Refrain from asking for staff.</li>
+					<li>Cursing is allowed within reason. However, racial slurs will result in severe punishment.</li>
+					<li>Accusations are not tolerated. Spreading any accusations will result in an investigation from all staff, which may lead to temporary or permanent termination from our services.</li>
+					<li>Do not argue with or threaten the staff.</li>
+					<li>Absolutely no blackmailing, attacking, cyberbullying, or threatening of any members.</li>
+					<li>No NSFW content. This include links and pictures.</li>
+					<li>Organized raids are not allowed.</li>
+					<li>Only one account per person at a time.</li>
+					<li>Any malicious content (i.e. viruses, malware, adware, etc) is strictly forbidden.</li>
+					<li>Any back talk (i.e, talking negatively on a member from our community/services) is not allowed. This includes exclusive places in the community, not DMs.</li>
+				</ul>
+				<p>If these guidelines were to be broken several times, action will be taken.</p>
 				</div>
+				<div id="alp-policies">
+					<h1>Alee Productions Policies</h1>
+					<div id="coppa">
+						<h2>COPPA Policy</h2>
+						<p>In order to comply with the Children’s Online Privacy Protection Act (COPPA), you must be at least 13 years of age to use these services. You will be banned if found to be under 13 years of age.</p>
+					</div>
+					<div id="cityverse">
+						<h2>Cityverse Policy</h2>
+						<p>These rules apply to the Cityverse server</p>
+						<ul>
+							<li>Usage of hacked clients (including - but not limited to - Wurst, Wolfram, Sigma, etc.) is strictly prohibited</li>
+							<li>Griefing is not allowed</li>
+							<li>Respect everyone</li>
+						</ul>
+						<p>If you are found to be in violation of these rules, you may receive a temporary or permanent ban. If you have been banned, and are found playing on an alt, you may be subject to an IP ban.</p>
+					</div>
+				</div>
+				<div id="discord-policies">
+					<h1>Discord Policies</h1>
+					<p>If you’re part of our discord server, we have set policies that you must follow.</p>
+					<div id="logging">
+						<h2>Logging</h2>
+						<p>The following will be logged and stored by our bots:</p>
+						<ul>
+							<li>Deleted Messages</li>
+							<li>Edited Messages</li>
+							<li>Your user ID</li>
+							<li>Members joining and leaving</li>
+						</ul>
+						<p>If you do not agree to the logging of these items, and wish to opt out, you must leave the community.</p>
+					</div>
+					<div id="nickname">
+						<h2>Nickname</h2>
+						<p>We enforce this nickname policy to keep a clean, friendly community.</p>
+						<p>To request a nickname change, use the command <code className="green-text">am:nick [nickname]</code>. Our staff will review your request and approve it accordingly. This system is set in place so that the community is a nice place to be for everyone. To have your nickname approved, it must comply with the following guidelines:</p>
+						<ul>
+							<li>No offensive words</li>
+							<li>No symbols</li>
+							<li>Nicknames must not be attention-grabbing (i.e. getting to the top of the list by using a symbol)</li>
+						</ul>
+						<p>Usernames or nickname requests found to be in violation of these guidelines will be subject to:</p>
+						<ul>
+							<li>Censoring your nickname/username</li>
+							<li>Ignoring the nickname change from AstralMod</li>
+						</ul>
+					</div>
+				</div>
+				<p>Any staff abusing their powers should be reported to Alee immediately.</p>
+				<p>Last updated: June 17th, 2020</p>
+				<a href="#top" className="green-text">Back to top</a>
 			</div>
 		</div>
 	</Layout>

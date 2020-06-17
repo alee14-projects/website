@@ -1,6 +1,6 @@
 /*
     Alee Productions Website: Website for Alee Productions
-    Copyright (C) 2019 Alee
+    Copyright (C) 2020 Alee
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
 
 */
 
-import Layout from "../components/Layout";
+import Layout from "../../components/Layout";
 
 const Projects = () => (
 	<Layout>
@@ -26,23 +26,10 @@ const Projects = () => (
 			<p className="lead">These are our current projects.</p>
 		</div>
 		<div className="container">
-			<h1 className="mb-5 text-center">Software/Games</h1>
 			{/*  Software Cards  */}
-			<h2 className="m-3 text-center">Larger projects</h2>
-			<div className="row d-flex justify-content-center">
-				<div className="col-md-5">
-					<div className="card elegant-color">
-						<div className="card-body">
-							<h5 className="card-title">Unicity</h5>
-							<p className="card-text white-text">A Sims clone written in Unity3D.</p>
-							<a className="card-link green-text" href="/projects/unicity">Learn more</a>
-							<a className="card-link green-text" href="https://github.com/aleeproductions/Unicity">
-								<i className="fab fa-github"/> GitHub
-							</a>
-						</div>
-					</div>
-				</div>
 
+			<h2 className="m-3 text-center">Games</h2>
+			<div className="row d-flex justify-content-center">
 				<div className="col-md-5">
 					<div className="card elegant-color">
 						<div className="card-body">
@@ -55,6 +42,26 @@ const Projects = () => (
 					</div>
 				</div>
 			</div>
+
+            <div className="container">
+            <h2 className="m-3 text-center">Software</h2>
+            <div className="row d-flex justify-content-center">
+            	{/*  Software Cards  */}
+
+                <div className="col-md-5">
+					<div className="card elegant-color">
+						<div className="card-body">
+							<h5 className="card-title">Alee Music Player</h5>
+							<p className="card-text white-text">A music player created in Qt and C++.</p>
+                            <a className="card-link green-text" href="/projects/alee-music-player">Learn more</a>
+							<a className="card-link green-text"
+							   href="https://github.com/aleeproductions/AleePlayer"><i
+								className="fab fa-github"/> GitHub</a>
+						</div>
+					</div>
+				</div>
+                </div>
+            </div>
 			{/*
         <h2 className="m-3">Other software/games we made...</h2>
         <button className="btn green" action="button" onclick="displayRepos();">Reload Repos</button>

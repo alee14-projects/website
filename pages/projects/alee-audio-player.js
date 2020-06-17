@@ -16,20 +16,22 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 */
+import Layout from "../../components/Layout";
 
-import Navbar from "./Navbar";
-import Header from "./Header";
-import Scripts from "./Scripts";
-import Footer from "./Footer";
+const AAP = () => (
+    <Layout>
+        <div className="jumbotron special-color bounceIn white-text">
+			<h2 className="display-4">Alee Audio Player</h2>
+			<p className="lead">An audio player created in Qt and C++.</p>
+		</div>
+		<div className="container">
+			<h1>The new audio player that enhances your experience.</h1>
+            <h2>Alee Audio Player is an audio player that's written from C++ and Qt. <br/> It can play, pause and stop audio.</h2><br/>
 
-const Layout = (props) => (
-	<div>
-		<Header/>
-		<Navbar/>
-		{props.children}
-		<Scripts/>
-		<Footer/>
-	</div>
+            <a className="green-text" href="https://github.com/aleeproductions/AleePlayer/releases/tag/v0.1"><h1>Download here!</h1></a>
+		</div>
+    </Layout>
+
 );
 
-export default Layout;
+export default AAP

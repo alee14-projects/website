@@ -38,12 +38,6 @@ const Navbar = () => (
 					<a className="nav-link" href="/tos">ToS</a>
 				</li>
 				<li className="nav-item">
-					<a className="nav-link" href="https://forums.alee-productions.xyz">Forums</a>
-				</li>
-				<li className="nav-item">
-					<a className="nav-link" href="https://git.alee-productions.xyz">Gitea</a>
-				</li>
-				<li className="nav-item">
 					<a className="nav-link" href="/blog">Blog</a>
 				</li>
 				<li className="nav-item">
@@ -76,11 +70,6 @@ const Navbar = () => (
 					<a className="nav-link" href="https://www.youtube.com/channel/UC9CIwdleH3m_PV35QqULWzA">
 						<i className="fab fa-youtube"/> YouTube
 					</a>
-				</li>
-			</ul>
-			<ul className="navbar-nav">
-				<li className="nav-item">
-					<span className="navbar-text white-text">BETA</span>
 				</li>
 			</ul>
 		</div>
