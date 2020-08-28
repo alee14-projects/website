@@ -22,22 +22,10 @@ import Layout from "../components/Layout";
 const Custom404 = () => (
     <Layout>
    <div class="text-center mt-3">
-       <h1>404 - Not Found</h1>
-       <h2 id="404message"></h2>
-       <h3>Return to <a href="/" className="green-text">homepage</a>?</h3>
+       <h1>404 Not Found</h1>
+       <a href="/">Back home</a>
     </div>
     </Layout>
 );
 
-function randomtext() {
-    let randomtxt = [
-        'Oops, seems like that page isn\'t found!',
-        'You seem to be lost!',
-        'Uh oh, that page isn\'t found in our servers!',
-        'Seems like you landed on this page...'
-    ];
-    return randomtxt[Math.floor((Math.random() * 4.00))];
-}
-
-document.getElementById("404message").innerHTML = randomtext();
 export default Custom404
