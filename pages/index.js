@@ -23,8 +23,7 @@ const Index = () => (
 	<Layout>
 		<div className="container">
         <h1>Announcement</h1>
-        <p>We is planning on rewriting the website once again.</p>
-        <p>Right now the website has been mashed up into one page.</p>
+        <p>UPDATE: As of right now, Alee Productions is rebranding once again. This time we're giving it a proper name and the new name will be announced soon. We're doing this because we're turning this into an actual company and we need to have a good name rather than a medicore name.</p>
         <h1>TOS</h1>
         <a href="/tos">Read the ToS here.</a>
         <h1>About</h1>
