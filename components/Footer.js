@@ -21,7 +21,7 @@ const Footer = () => (
 	<div>
 		<footer className="page-footer mt-5 font-small green">
 			<div className="footer-copyright text-center py-3">
-				&copy; Copyright 2017-2020, Alee Productions. Licensed with <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL-3.0</a>.
+				&copy; Copyright 2017-2021, Alee Productions. Licensed with <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL-3.0</a>.
 				View the <a href="/about#credits">credits</a> to see our stack.
 			</div>
 		</footer>
