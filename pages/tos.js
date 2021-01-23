@@ -60,16 +60,17 @@ const TOS = () => (
 						<h2>Cityverse Policy</h2>
 						<p>These rules apply to the Cityverse server</p>
 						<ul>
-							<li>Usage of hacked clients (including - but not limited to - Wurst, Wolfram, Sigma, etc.) is strictly prohibited</li>
-							<li>Griefing is not allowed</li>
+							<li>Usage of hacked clients (including - but not limited to - Wurst, Wolfram, Sigma, etc.) is strictly prohibited*</li>
+							<li>Griefing is not allowed*</li>
 							<li>Respect everyone</li>
 						</ul>
 						<p>If you are found to be in violation of these rules, you may receive a temporary or permanent ban. If you have been banned, and are found playing on an alt, you may be subject to an IP ban.</p>
+						<p>* If a certain server allows these actions, then these policies will not apply.</p>
 					</div>
 				</div>
 				<div id="discord-policies">
 					<h1>Discord Policies</h1>
-					<p>If you’re part of our discord server, we have set policies that you must follow.</p>
+					<p>If you are part of our discord server, we have set policies that you must follow.</p>
 					<div id="logging">
 						<h2>Logging</h2>
 						<p>The following will be logged and stored by our bots:</p>
@@ -98,7 +99,7 @@ const TOS = () => (
 					</div>
 				</div>
 				<p>Any staff abusing their powers should be reported to Alee immediately.</p>
-				<p>Last updated: June 17th, 2020</p>
+				<p>Last updated: January 23rd, 2021</p>
 				<a href="#top" className="green-text">Back to top</a>
 			</div>
 		</div>
