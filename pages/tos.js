@@ -70,7 +70,7 @@ const TOS = () => (
 				</div>
 				<div id="discord-policies">
 					<h1>Discord Policies</h1>
-					<p>If you are part of our discord server, we have set policies that you must follow.</p>
+					<p>If you are part of our discord server(s), we have set policies that you must follow.</p>
 					<div id="logging">
 						<h2>Logging</h2>
 						<p>The following will be logged and stored by our bots:</p>
