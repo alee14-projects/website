@@ -93,8 +93,8 @@ const TOS = () => (
 						</ul>
 						<p>Usernames or nickname requests found to be in violation of these guidelines will face repercussions.</p>
 					</div>
+					<p>We recommend you to follow Discord's <a href="https://discord.com/terms" className="green-text">Terms of Service</a> and <a href="https://discord.com/guidelines" className="green-text">Community Guidelines</a></p>
 				</div>
-				<p>Any staff abusing their powers should be reported to Alee immediately.</p>
 				<p>Last updated: January 23rd, 2021</p>
 				<a href="#top" className="green-text">Back to top</a>
 			</div>
