@@ -48,7 +48,7 @@ const TOS = () => (
 					<li>Any malicious content (i.e. viruses, malware, adware, etc) is strictly forbidden.</li>
 					<li>Any back talk (i.e, talking negatively on a member from our community/services) is not allowed. This includes exclusive places in the community, not DMs.</li>
 				</ul>
-				<p>If these guidelines were to be broken several times, action will be taken.</p>
+				<p>Action will be taken against any users consistently breaking these guidelines.</p>
 				</div>
 				<div id="alp-policies">
 					<h1>Alee Productions Policies</h1>
@@ -64,7 +64,7 @@ const TOS = () => (
 							<li>Griefing is not allowed*</li>
 							<li>Respect everyone</li>
 						</ul>
-						<p>If you are found to be in violation of these rules, you may receive a temporary or permanent ban. If you have been banned, and are found playing on an alt, you may be subject to an IP ban.</p>
+						<p>If you are found to violate these rules, you may receive a temporary or permanent ban. If you have been banned, and are found playing on an alt, you may be subject to an IP ban.</p>
 						<p>* If a certain server allows these actions, then these policies will not apply.</p>
 					</div>
 				</div>
