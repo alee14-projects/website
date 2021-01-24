@@ -56,9 +56,9 @@ const TOS = () => (
 						<h2>COPPA Policy</h2>
 						<p>In order to comply with the Children’s Online Privacy Protection Act (COPPA), you must be at least 13 years of age to use these services. You will be banned if found to be under 13 years of age.</p>
 					</div>
-					<div id="cityverse">
-						<h2>Cityverse Policy</h2>
-						<p>These rules apply to the Cityverse server</p>
+					<div id="delta">
+						<h2>Delta Policy</h2>
+						<p>These rules apply to the Delta server</p>
 						<ul>
 							<li>Usage of hacked clients (including - but not limited to - Wurst, Wolfram, Sigma, etc.) is strictly prohibited*</li>
 							<li>Griefing is not allowed*</li>
@@ -95,7 +95,7 @@ const TOS = () => (
 					</div>
 					<p>We recommend you to follow Discord's <a href="https://discord.com/terms" className="green-text">Terms of Service</a> and <a href="https://discord.com/guidelines" className="green-text">Community Guidelines</a></p>
 				</div>
-				<p>Last updated: January 23rd, 2021</p>
+				<p>Last updated: January 24th, 2021</p>
 				<a href="#top" className="green-text">Back to top</a>
 			</div>
 		</div>
