@@ -30,7 +30,7 @@ const TOS = () => (
 				<p>These terms of service are set in place to ensure you have a great time being part of our community/services.</p>
 				<div id="community-guidelines">
 				<h1>Community Guidelines</h1>
-				<p>These are the community guidelines. They are meant to set the foundations of this community.</p>
+				<p>These are the community guidelines that must be followed.</p>
 				<ul>
 					<li>Use common sense.</li>
 					<li>No spamming. Any spam will result in an official warning.</li>
@@ -38,7 +38,7 @@ const TOS = () => (
 					<li>Respect others.</li>
 					<li>No backseat moderating (enforcing the rules to other users).</li>
 					<li>Refrain from asking for staff.</li>
-					<li>Cursing is allowed within reason. However, racial slurs will result in severe punishment.</li>
+					<li>Cursing is allowed within reason. However, racial slurs and/or using them to hurt others will result in severe punishment.</li>
 					<li>Accusations are not tolerated. Spreading any accusations will result in an investigation from all staff, which may lead to temporary or permanent termination from our services.</li>
 					<li>Do not argue with or threaten the staff.</li>
 					<li>Absolutely no blackmailing, attacking, cyberbullying, or threatening of any members.</li>
@@ -80,22 +80,18 @@ const TOS = () => (
 							<li>Your user ID</li>
 							<li>Members joining and leaving</li>
 						</ul>
-						<p>If you do not agree to the logging of these items, and wish to opt out, you must leave the community.</p>
+						<p>If you do not agree to the logging of these items, and wish to opt out, you must leave the server.</p>
 					</div>
 					<div id="nickname">
 						<h2>Nickname</h2>
 						<p>We enforce this nickname policy to keep a clean, friendly community.</p>
-						<p>To request a nickname change, use the command <code className="green-text">am:nick [nickname]</code>. Our staff will review your request and approve it accordingly. This system is set in place so that the community is a nice place to be for everyone. To have your nickname approved, it must comply with the following guidelines:</p>
+						<p>This system is set in place so that the community is a nice place to be for everyone. When changing your nickname, it must comply with the following guidelines:</p>
 						<ul>
 							<li>No offensive words</li>
 							<li>No symbols</li>
 							<li>Nicknames must not be attention-grabbing (i.e. getting to the top of the list by using a symbol)</li>
 						</ul>
-						<p>Usernames or nickname requests found to be in violation of these guidelines will be subject to:</p>
-						<ul>
-							<li>Censoring your nickname/username</li>
-							<li>Ignoring the nickname change from AstralMod</li>
-						</ul>
+						<p>Usernames or nickname requests found to be in violation of these guidelines will face repercussions.</p>
 					</div>
 				</div>
 				<p>Any staff abusing their powers should be reported to Alee immediately.</p>
