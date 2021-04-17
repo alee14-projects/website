@@ -66,7 +66,7 @@ const TOS = () => (
 							<li>Respect everyone.</li>
 						</ul>
 						<p>If you are found to violate these rules, you may receive a temporary or permanent ban. If you have been banned, and are found playing on an alt, you may be subject to an IP ban.</p>
-						<p>* If a certain server allows these actions, then these policies will not apply.</p>
+						<p>* If certain server allows these actions, then these policies will not apply.</p>
 					</div>
 				</div>
 				<div id="discord-policies">
