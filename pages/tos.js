@@ -62,7 +62,7 @@ const TOS = () => (
 						<ul>
 							<li>Usage of hacked clients (including - but not limited to - Wurst, Wolfram, Sigma, etc.) is strictly prohibited.*</li>
 							<li>Griefing is not allowed.*</li>
-							<li>Combating is not allowed. Unless the target player wants to combat with the other player.</li>
+							<li>Combating is not allowed. Unless the target player wants to combat with the other player with permission.</li>
 							<li>Respect everyone.</li>
 						</ul>
 						<p>If you are found to violate these rules, you may receive a temporary or permanent ban. If you have been banned, and are found playing on an alt, you may be subject to an IP ban.</p>
