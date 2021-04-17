@@ -62,6 +62,7 @@ const TOS = () => (
 						<ul>
 							<li>Usage of hacked clients (including - but not limited to - Wurst, Wolfram, Sigma, etc.) is strictly prohibited*</li>
 							<li>Griefing is not allowed*</li>
+							<li>Combating is not allowed. Unless the target player wants to combat with the other player.</li>
 							<li>Respect everyone</li>
 						</ul>
 						<p>If you are found to violate these rules, you may receive a temporary or permanent ban. If you have been banned, and are found playing on an alt, you may be subject to an IP ban.</p>
@@ -95,7 +96,7 @@ const TOS = () => (
 					</div>
 					<p>We recommend you to follow Discord's <a href="https://discord.com/terms" className="green-text">Terms of Service</a> and <a href="https://discord.com/guidelines" className="green-text">Community Guidelines</a></p>
 				</div>
-				<p>Last updated: February 11th, 2021</p>
+				<p>Last updated: April 17th, 2021</p>
 				<a href="#top" className="green-text">Back to top</a>
 			</div>
 		</div>
