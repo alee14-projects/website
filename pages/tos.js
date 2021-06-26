@@ -30,7 +30,7 @@ const TOS = () => (
 				<p>These terms of service are set in place to ensure you have a great time being part of our community/services.</p>
 				<div id="community-guidelines">
 				<h1>Community Guidelines</h1>
-				<p>These are the community guidelines that must be followed in every community/service we own.</p>
+				<p>These are the community guidelines that must be followed in every community/services we own.</p>
 				<ul>
 					<li>Use common sense.</li>
 					<li>No spamming. Any spam will result in an official warning.</li>
