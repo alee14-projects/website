@@ -30,7 +30,7 @@ const TOS = () => (
 				<p>These terms of service are set in place to ensure you have a great time being part of our community/services.</p>
 				<div id="community-guidelines">
 				<h1>Community Guidelines</h1>
-				<p>These are the community guidelines that must be followed.</p>
+				<p>These are the community guidelines that must be followed in every community/service we own.</p>
 				<ul>
 					<li>Use common sense.</li>
 					<li>No spamming. Any spam will result in an official warning.</li>
@@ -47,6 +47,7 @@ const TOS = () => (
 					<li>Only one account per person at a time.</li>
 					<li>Any malicious content (i.e. viruses, malware, adware, etc) is strictly forbidden.</li>
 					<li>Any back talk (i.e, talking negatively on a member from our community/services) is not allowed. This includes exclusive places in the community, not DMs.</li>
+					<li>If you encounter someone in this community exchanging or requesting illegal content to you, contact staff immediately and the team will handle it.</li>
 				</ul>
 				<p>Action will be taken against any users consistently breaking these guidelines.</p>
 				</div>
@@ -96,7 +97,7 @@ const TOS = () => (
 					</div>
 					<p>We recommend you to follow Discord's <a href="https://discord.com/terms" className="green-text">Terms of Service</a> and <a href="https://discord.com/guidelines" className="green-text">Community Guidelines</a></p>
 				</div>
-				<p>Last updated: April 17th, 2021</p>
+				<p>Last updated: June 26th, 2021</p>
 				<a href="#top" className="green-text">Back to top</a>
 			</div>
 		</div>
