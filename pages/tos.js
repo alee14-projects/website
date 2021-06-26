@@ -46,7 +46,7 @@ const TOS = () => (
 					<li>Only one account per person at a time.</li>
 					<li>Any malicious content (i.e. viruses, malware, adware, etc) is strictly forbidden.</li>
 					<li>Any back talk (i.e, talking negatively on a member from our community/services) is not allowed. This includes exclusive places in the community, not DMs.</li>
-					<li>If you encounter someone in this community exchanging or requesting illegal content to you (which includes any NSFW content), contact staff immediately and the team will handle it.</li>
+					<li>If you encounter someone in this community exchanging or requesting illegal content to you (which includes any NSFW content), contact the staff team immediately and the team will handle it.</li>
 				</ul>
 				<p>Action will be taken against any users consistently breaking these guidelines.</p>
 				</div>
