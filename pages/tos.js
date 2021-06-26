@@ -44,7 +44,7 @@ const TOS = () => (
 					<li>Absolutely no blackmailing, attacking, cyberbullying, or threatening of any members.</li>
 					<li>Organized raids are not allowed.</li>
 					<li>Only one account per person at a time.</li>
-					<li>Any malicious content (i.e. viruses, malware, adware, etc) is strictly forbidden.</li>
+					<li>Any illgeal content (i.e. viruses, malware, adware, NSFW, etc) is strictly forbidden.</li>
 					<li>Any back talk (i.e, talking negatively on a member from our community/services) is not allowed. This includes exclusive places in the community, not DMs.</li>
 					<li>If you encounter someone in this community exchanging or requesting illegal content to you (which includes any NSFW content), contact the staff team immediately and the team will handle it.</li>
 				</ul>
