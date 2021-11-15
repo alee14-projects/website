@@ -94,6 +94,10 @@ const TOS = () => (
 						</ul>
 						<p>Usernames or nickname requests found to be in violation of these guidelines will face repercussions.</p>
 					</div>
+					<div id="threads">
+						<h2>Threads</h2>
+						<p>Threads is a new Discord feature which allows you to make subchannels. We have set a policy to not allow to make threads with little to no value, if you made a thread in which has little to no value, it is considered to be spam and we will remove it. If caught doing it continuously, there will be consequences.</p>
+					</div>
 					<p>We recommend you to follow Discord's <a href="https://discord.com/terms" className="green-text">Terms of Service</a> and <a href="https://discord.com/guidelines" className="green-text">Community Guidelines</a></p>
 				</div>
 				<p>Last updated: June 26th, 2021</p>
