@@ -100,7 +100,7 @@ const TOS = () => (
 					</div>
 					<p>We recommend you to follow Discord's <a href="https://discord.com/terms" className="green-text">Terms of Service</a> and <a href="https://discord.com/guidelines" className="green-text">Community Guidelines</a></p>
 				</div>
-				<p>Last updated: June 26th, 2021</p>
+				<p>Last updated: November 15th, 2021</p>
 				<a href="#top" className="green-text">Back to top</a>
 			</div>
 		</div>
